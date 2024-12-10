@@ -1,0 +1,95 @@
+{
+    "locales": {
+        "en": {
+            "title": "My <span class='text-primary'>Project Portfolio</span>",
+            "description": "Here are some of the projects I have worked on. From school projects to fun personal projects, my best work can be found here"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "team",
+            "locales": {
+                "en": {"title": "Team Projects"}
+            }
+        },
+        {
+            "id": "solo",
+            "locales": {
+                "en": {"title": "Solo Projects"}
+            }
+        }
+    ],
+
+    "items": {
+        "team": [
+            {
+                "id": "revmetrix",
+                "title": "RevMetrix",
+                "logoUrl": "images/portfolio/revmet.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-bowling-ball", "href": "https://docs.revmetrix.io/", "id": "RevMetrix Wiki"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>RevMetrix</b> is a bowling training app that I worked on as a part of my capstone courses at York College. The goal of RevMetrix is to allow bowlers to record their shots using a sensor inside their bowling ball and their phone camera. This recorded data can then be used to analyze the bowling balls movement to optimize their form.\nOn a team of 12 other students, I helped to start this multi-year, client-based project that would involve a cross-platform mobile application, web server, unity visualizer and data simulator. I was a part of the mobile application team, where, using .NET MAUI, I helped with UI design and led the integration of Bluetooth LE communication. While RevMetrix carries on without me, the foundation that my team and I created will be invaluable to future students.",
+                        "tags": ["app", "bluetooth", ".NET", "ui/ux", "sports"]
+                    }
+                },
+                "image1Url": "images/portfolio/revPages.png",
+                "image2Url": "images/portfolio/revVis.png"
+            },
+
+            {
+                "id": "sopranos",
+                "title": "Sopranos Brawlers",
+                "logoUrl": "images/portfolio/sopranologo.png",
+                "links": null,
+                "locales": {
+                    "en": {
+                        "description": "<b>Sopranos Brawlers</b>  is a work-in-progress fighting game based on the renowned HBO television series <i>The Sopranos</i>. Starting as nothing more than a joke with my college roommate, Sopranos Brawler is, or will be, a 2D fighting game somewhere between Street Fighter and Super Smash Bros. With a cast of 14 characters from the show each with unique movesets, Sopranos Brawlers will let players control their favorite mobsters in a one-on-one showdown in iconic locations inspired by the show.\nSopranos Brawlers serves as my first dip into Unity and game design. While this game can never legally be officially released, Sopranos Brawlers is the most fun learning experience I've taken on. I hope to one day officially release a modified version without the Sopranos IP.",
+                        "tags": ["unity", "scripting", "animation", "game design", "games"]
+                    }
+                },
+                "image1Url": "images/portfolio/sopranohome.png",
+                "image2Url": "images/portfolio/sopranogame.png"
+            },
+
+            {
+                "id": "chess",
+                "title": "Web Chess",
+                "logoUrl": "images/portfolio/chesspiece.png",
+                "links": [
+                    {"faIcon": "fab fa-github", "href": "https://github.com/mhensel1/GroupChessRepo", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Web Chess</b> was a java-based chess web application and one of my first complete dives into software development. I worked in a group with 2 other students to create the game of chess in a web application. The application would include the game of chess itself, as well as user accounts and stats for each user based on their played games.\nFrom use-cases and UML diagrams to web design and ORM, this project is where I learned many of the fundamentals of software engineering. We built the project in the Eclipse IDE and utilized Java Server Pages to locally host the app and bring its pages to life. I worked on both the design of the webpages, using HTML, CSS, and some JavaScript, as well as building out the database that would store user and game information using Apache Derby.\nAs a beginner project, Web Chess did not last long after the end of the semester. However, the experience I received from this project was invaluable in catapulting my software development journey.",
+                        "tags": ["web app", "java", "JSP", "SQL database", "games"]
+                    }
+                },
+                "image1Url": "images/portfolio/chesshome.png",
+                "image2Url": "images/portfolio/chessgame.png"
+            }
+        ],
+
+        "solo": [
+            {
+                "id": "songify",
+                "title": "Song Suggester",
+                "logoUrl": "images/portfolio/musicnote2.png",
+                "links": [
+                    {"faIcon": "fab fa-github", "href": "https://github.com/mhensel1/CS320Personal2022", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "As a part of my first Software Engineering course in my 2nd year at York College, each student was required to create a project entirely of their choice on their own over the course of the semester. With such a broad assignment, I wanted to find a way to combine my passion for music with my passion for development. I set out to create <b>Song Suggester</b>, an application built using Node.js to suggest songs from an artist based on a user’s textual or vocal input. Suggestions were based off of various factors such as tempo, key, and album of origin. The web application featured simple web pages to allow for user input and results. Much of my time on the project was spent working behind the scenes, fleshing out the database of songs using MySQL and integrating a speech-to-text API from Google Cloud. This project served as a great learning experience and confirmed to me that software development was the path I wanted to follow.",
+                        "tags": ["web app", "node.js", "MySQL", "music"]
+                    }
+                },
+                "image1Url": "images/portfolio/songhome.png",
+                "image2Url": "images/portfolio/songhome.png"
+            }
+        ]
+    }
+}

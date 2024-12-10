@@ -1,0 +1,63 @@
+{
+    "name": "Michael Hensel",
+    "profilePictureUrl": "images/pictures/mugSquare.jpg",
+
+    "locales": {
+        "en": {
+            "credits": null,
+            "role": "Prospective Software Engineer"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Elizabethtown, PA 17022",
+            "valueShort": "Elizabethtown, PA 17022",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "mhensel080@gmail.com",
+            "valueShort": "mhensel080@gmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:mhensel080@gmail.com"
+        },
+
+
+
+        "github": {
+            "id": "github",
+            "value": "@mhensel1",
+            "valueShort": "@mhensel1",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/mhensel1"
+        },
+
+        "instagram": {
+            "id": "instagram",
+            "value": "@jonas.einstein.official",
+            "valueShort": "@jonas.einstein.official",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://instagram.com"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@michael-hensel-t",
+            "valueShort": "@michael-hensel-t",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/michael-hensel-t"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "+1 (123) 456-7890",
+            "valueShort": "(123) 456-7890",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:1234567890"
+        }
+    }
+}

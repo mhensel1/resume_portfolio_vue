@@ -1,0 +1,49 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Professional</span> Experience",
+            "description": "A look into my work experience and career journey thus far."
+        }
+    },
+
+    "items": [
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.hershey}",
+            "period": ["2024/05", "now"],
+            "locales": {
+                "en": {
+                    "title": "Event Tech Services Specialist",
+                    "description": "Maintained day-to-day functionality of various applications and devices across HE&R complexes. Managed equipment setups for department relocations and large-scale events. Assisted in mobile device management of all company mobile devices. Communicated with department leaders to discuss hardware and software requirements and organize equipment setups",
+                    "tags": ["IT", "Ticketing", "Device Management", "App Configuration", "Troubleshooting", "Cross-Functional Collaboration"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_2",
+            "place": "@link{places.mtjoy}",
+            "period": ["2023/05", "2023/08"],
+            "locales": {
+                "en": {
+                    "title": "IT Intern",
+                    "description": "Assisted corporate IT team in day-to-day management of corporate and branch offices. Assisted in SQL Server maintenance, networking, and device management. Managed employee accounts from creation to termination.",
+                    "tags": ["IT", "SQL Server", "Account Management", "Networking", "Device Management"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_3",
+            "place": "@link{places.ycp}",
+            "period": ["2021/08", "2024/05"],
+            "locales": {
+                "en": {
+                    "title": "Library Technology Services Student Worker",
+                    "description": "Manned campus help desk, answering 5-10 calls/hour. Assisted Desktop Support team in management of campus software and hardware.",
+                    "tags": ["Help Desk", "IT", "Device Management", "Software Installation"]
+                }
+            }
+        }
+    ]
+}

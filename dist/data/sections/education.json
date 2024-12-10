@@ -1,0 +1,23 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Educational</span> Background",
+            "description": "Here you can find my academic history and the accomplishments I made along the way."
+        }
+    },
+
+    "items": [
+        {
+            "id": "bachelor_ycp",
+            "place": "@link{places.ycp}",
+            "period": ["2020/08", "2024/05"],
+
+            "locales": {
+                "en": {
+                    "title": "Bachelor's in Computer Science",
+                    "description": "Graduated with high honors in computer science. Acquired in-depth experience in each step of the software development process along with various, integral computer science principles. Degree was accompanied with a minor in mathematics"
+                }
+            }
+        }
+    ]
+}

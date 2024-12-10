@@ -1,0 +1,60 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Achievements</span>",
+            "description": "Throughout my life and education, I strived to give my all whenever I could. This effort allowed me to gain valuable experience and recognition as highlight by these awards:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "awards",
+            "faIcon": "fa-solid fa-trophy",
+            "locales": {
+                "en": {"title": "Awards", "buttonLabel": "More Info"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+            {
+                "id": "eagle_scout",
+                "place": "@link{places.etown}",
+                "date": "2019/12",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Eagle Scout",
+                        "description": "Eagle Scout award; Learned leadership and teamwork skills in playground relocation project."
+                    }
+                }
+            },
+
+            {
+                "id": "dean_list",
+                "place": "@link{places.ycp}",
+                "date": "2024/05",
+                "href": "https://www.ycp.edu/",
+                "locales": {
+                    "en": {
+                        "title": "Deans List",
+                        "description": "Earned Dean's List every semester by maintaining a GPA above 3.5 at York College of Pennsylvania"
+                    }
+                }
+            },
+            {
+                "id": "honors",
+                "place": "@link{places.ycp}",
+                "date": "2024/05",
+                "href": "https://www.ycp.edu/",
+                "locales": {
+                    "en": {
+                        "title": "Summa Cum Laude",
+                        "description": "Earned highest honors from York College of Pennsylvania for graduating with a 3.9 GPA"
+                    }
+                }
+            }
+        ]
+    }
+}

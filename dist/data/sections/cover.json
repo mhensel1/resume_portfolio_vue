@@ -1,0 +1,21 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Portfolio!</span>",
+            "welcomeShort": "Welcome!",
+            "bio": "As a Computer Science graduate of York College of Pennsylvania, I have vast experience in software development. Ever since I took my first programming course in my freshman year of high school, I have been in love with programming and software development. To me, software development is more than just a career or a means to create products, it is an art. To be able to take a simple idea and bring it to life piece by piece is a wonderful experience and one that I never grow tired of. I am hoping to utilize my skills and passion for software development in a professional setting and learn much more along the way."
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}"
+        ]
+    }
+}

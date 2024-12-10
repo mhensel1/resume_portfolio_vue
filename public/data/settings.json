@@ -1,0 +1,14 @@
+{
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        }
+    ],
+
+    "preloaderEnabled": true,
+    "contactFormEnabled": false,
+    "sidebarShrinkingEnabled": false
+}

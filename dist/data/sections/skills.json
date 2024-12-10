@@ -1,0 +1,264 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Skill</span> Set",
+            "description": "Here you can see the various skills I have acquired as well as tools I've used:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "frameworks",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-folder",
+            "locales": {
+                "en": {"title": "Frameworks"}
+            }
+        },
+
+        {
+            "id": "programming",
+            "type": "grid",
+            "faIcon": "fa fa-code",
+            "locales": {
+                "en": {"title": "Programming"}
+            }
+        },
+
+        {
+            "id": "tools",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa fa-toolbox",
+            "locales": {
+                "en": {"title": "Tools/IDEs"}
+            }
+        }
+    ],
+
+    "items": {
+        "frameworks": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-unity",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Unity",
+                        "description": "Since graduating, I have taught myself Unity to explore fields like game design. To learn more about what I've done in Unity see the Projects section"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": ".NET Core",
+                        "description": "My senior capstone project was built on .NET Core. The project utilized .NET to support it's web server and facilitate communication with a mobile app"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-mobile-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": ".NET MAUI",
+                        "description": "Using MAUI I have designed friendly UI, communicated with other devices via Bluetooth, and plotted data in striking graphs"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-node-js",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Node.js",
+                        "description": "I've used Node to create web applications such as the one your viewing now."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-database",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "MySQL",
+                        "description": "I've become proficient in using MySQL for database management and integration into various applications"
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-brands fa-java",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Java Server Pages",
+                        "description": "I have used JSP to work across the stack and create dynamic, multi-page web applications"
+                    }
+                }
+            }
+        ],
+
+        "programming": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-c",
+                "locales": {
+                    "en": {"title": "C#", "description": "Experience Time: 1 year"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-c",
+                "locales": {
+                    "en": {"title": "C/C++", "description": "Experience Time: 4 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-java",
+                "locales": {
+                    "en": {"title": "Java", "description": "Experience Time: 3 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-js-square",
+                "locales": {
+                    "en": {"title": "JavaScript", "description": "Experience Time: 2 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-python",
+                "locales": {
+                    "en": {"title": "Python", "description": "Experience Time: 4 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-html5",
+                "locales": {
+                    "en": {"title": "HTML 5", "description": "Experience Time: 2 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-css3-alt",
+                "locales": {
+                    "en": {"title": "CSS 3", "description": "Experience Time: 2 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-database",
+                "locales": {
+                    "en": {"title": "SQL", "description": "Experience time: 2 years"}
+                }
+            }
+        ],
+
+        "tools": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-github",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Git/GitHib", "description": "Used for version control, team project management, and issue tracking"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Rider", "description": ""}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-cube",
+                "value": null,
+                "locales": {
+                    "en": {"title": "NuGet Package Manager", "description": "Used to include custom libraries and APIs in .NET environment"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Visual Studio/VS Code", "description": ""}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-docker",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Docker", "description": "Used for containerization of projects in development and learning how to defend against cyberattacks"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "IntelliJ", "description": ""}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-pen",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Draw.io", "description": "Used to create wireframes and UML diagrams for early project development"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "CLion", "description": ""}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "VMWare", "description": "Used for educational cyberattacks in a linux environment"}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-java",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Eclipse", "description": ""}
+                }
+            }
+        ]
+
+    }
+}
