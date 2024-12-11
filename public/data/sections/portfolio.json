@@ -41,21 +41,6 @@
             },
 
             {
-                "id": "sopranos",
-                "title": "Sopranos Brawlers",
-                "logoUrl": "images/portfolio/sopranologo.png",
-                "links": null,
-                "locales": {
-                    "en": {
-                        "description": "<b>Sopranos Brawlers</b>  is a work-in-progress fighting game based on the renowned HBO television series <i>The Sopranos</i>. Starting as nothing more than a joke with my college roommate, Sopranos Brawler is, or will be, a 2D fighting game somewhere between Street Fighter and Super Smash Bros. With a cast of 14 characters from the show each with unique movesets, Sopranos Brawlers will let players control their favorite mobsters in a one-on-one showdown in iconic locations inspired by the show.\nSopranos Brawlers serves as my first dip into Unity and game design. While this game can never legally be officially released, Sopranos Brawlers is the most fun learning experience I've taken on. I hope to one day officially release a modified version without the Sopranos IP.",
-                        "tags": ["unity", "scripting", "animation", "game design", "games"]
-                    }
-                },
-                "image1Url": "images/portfolio/sopranohome.png",
-                "image2Url": "images/portfolio/sopranogame.png"
-            },
-
-            {
                 "id": "chess",
                 "title": "Web Chess",
                 "logoUrl": "images/portfolio/chesspiece.png",
@@ -74,6 +59,21 @@
         ],
 
         "solo": [
+            {
+                "id": "sopranos",
+                "title": "Sopranos Brawlers",
+                "logoUrl": "images/portfolio/sopranologo.png",
+                "links": null,
+                "locales": {
+                    "en": {
+                        "description": "<b>Sopranos Brawlers</b>  is a work-in-progress fighting game based on the renowned HBO television series <i>The Sopranos</i>. Starting as nothing more than a joke with my college roommate, Sopranos Brawler is, or will be, a 2D fighting game somewhere between Street Fighter and Super Smash Bros. With a cast of 14 characters from the show each with unique movesets, Sopranos Brawlers will let players control their favorite mobsters in a one-on-one showdown in iconic locations inspired by the show.\nSopranos Brawlers serves as my first dip into Unity and game design. While this game can never legally be officially released, Sopranos Brawlers is the most fun learning experience I've taken on. I hope to one day officially release a modified version without the Sopranos IP.",
+                        "tags": ["unity", "scripting", "animation", "game design", "games"]
+                    }
+                },
+                "image1Url": "images/portfolio/sopranohome.png",
+                "image2Url": "images/portfolio/sopranogame.png"
+            },
+
             {
                 "id": "songify",
                 "title": "Song Suggester",
