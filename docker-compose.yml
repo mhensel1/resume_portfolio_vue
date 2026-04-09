@@ -7,5 +7,5 @@ services:
       dockerfile: Dockerfile
     image: robwoodd/mhensel-portfolio
     ports:
-      - "4567:80"
+      - "8813:80"
     container_name: mhensel-portfolio
