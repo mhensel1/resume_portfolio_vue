@@ -28,4 +28,4 @@ jobs:
     steps:
       - name: Trigger Komodo Deploy
         run: |
-          curl -v -s -f --max-time 10 -X POST ${{ secrets.KOMODO_WEBHOOK_URL }} || echo "Deploy triggered"
+          curl -s -f --max-time 10 -X POST \ -H "x-komodo-secret: ${{ secrets.KOMODO_SECRET }}" \ ${{ secrets.KOMODO_WEBHOOK_URL }} || echo "Deploy triggered"
