@@ -34,5 +34,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVKEY }}
           # port: ${{ secrets.PORT }}
           script: |
-            cd mhensel
+            cd dropletApps/mhensel
             ./run.sh
